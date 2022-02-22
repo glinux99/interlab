@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^actus.php$ index.php [L]
