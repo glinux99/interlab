@@ -19,6 +19,113 @@ url("./fonts/bootstrap-icons.woff?30af91bf14e37666a085fb8a161ff36d") format("wof
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bi--xs {
+  font-size: 0.5em;
+}
+
+.bi--sm {
+  font-size: 0.75em;
+}
+
+.bi--md {
+  font-size: 1em;
+}
+
+.bi--lg {
+  font-size: 1.25em;
+}
+
+.bi--xl {
+  font-size: 1.5em;
+}
+
+.bi--2xl {
+  font-size: 2em;
+}
+
+.bi--3xl {
+  font-size: 2.5em;
+}
+
+.bi--4xl {
+  font-size: 3em;
+}
+
+.bi--5xl {
+  font-size: 3.5em;
+}
+
+.bi--6xl {
+  font-size: 4em;
+}
+
+.bi--7xl {
+  font-size: 4.5em;
+}
+
+.bi--8xl {
+  font-size: 5em;
+}
+
+.bi--spin {
+  -webkit-animation: bi--spin 2s infinite linear;
+          animation: bi--spin 2s infinite linear;
+}
+
+@-webkit-keyframes bi--spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes bi--spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.bi--rotate-45 {
+  transform: rotate(45deg);
+}
+
+.bi--rotate-90 {
+  transform: rotate(90deg);
+}
+
+.bi--rotate-135 {
+  transform: rotate(135deg);
+}
+
+.bi--rotate-180 {
+  transform: rotate(180deg);
+}
+
+.bi--rotate-225 {
+  transform: rotate(225deg);
+}
+
+.bi--rotate-270 {
+  transform: rotate(270deg);
+}
+
+.bi--rotate-315 {
+  transform: rotate(315deg);
+}
+
+.bi--flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.bi--flip-vertical {
+  transform: scale(1, -1);
+}
+
 .bi-123::before { content: "\f67f"; }
 .bi-alarm-fill::before { content: "\f101"; }
 .bi-alarm::before { content: "\f102"; }

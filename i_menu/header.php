@@ -1,7 +1,7 @@
 <?php include('includes.php');
     if($index===1){
         echo '<link rel="stylesheet" href="vendor/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="vendor/icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="vendor/icons/dist/bootstrap-icons-font.min.css">
         <link rel="stylesheet" href="css/css.css">
         <script src="vendor/dist/js/bootstrap.bundle.min.js"></script>';
         $logo ="i_img/logo.png";
@@ -20,12 +20,18 @@
         $reparation='i_services/reparation';
         $security='i_services/security';
         $site_web='i_services/site_web';
+        $inscription='i_login/inscription';
+        $livres ='i_livres/livres';
+        $tutos= 'i_tutos/tutos';
     }else {
         $dir="../";
         $logo ="../i_img/logo.png";
         $acceuil = '../';
         $actus = '../actus';
         $apk=$dir.'i_services/apk';
+        $livres ='../i_livres/livres';
+        $tutos= '../i_tutos/tutos';
+        $inscription='../i_login/inscription';
         $cours=$dir.'i_services/cours';
         $db=$dir.'i_services/db';
         $design=$dir.'i_services/design';

@@ -21,16 +21,39 @@
                 <div class="card-title">
                     <ul class="nav nav-tabs mx-auto" id="" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link active" id="username-log" data-bs-toggle="tab" href="#username" role="tab" aria-controls="username" aria-selected="true"><?php echo _("Username login");?></a>
+                            <a class="nav-link active" id="card-log" data-bs-toggle="tab" href="#card-login" role="tab" aria-controls="card-login" aria-selected="true"><?php echo _("Creation compte");?></a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="card-log" data-bs-toggle="tab" href="#card-login" role="tab" aria-controls="card-login" aria-selected="false"><?php echo _("Creation compte");?></a>
+                            <a class="nav-link" id="username-log" data-bs-toggle="tab" href="#username" role="tab" aria-controls="username" aria-selected="false"><?php echo _("Username login");?></a>
                         </li>
                     </ul>
                 </div>
                 <div class="card-body">
                     <div class="tab-content m-auto" id="">
-                        <div class="tab-pane fade show active" id="username" role="tabpanel" aria-labelledby="username-log">
+                        <div class="tab-pane fade show active" id="card-login" role="tabpanel" aria-labelledby="card-log">
+                            <p class="text-center"><span class="bi-person h1"></span></p>
+                            <p class="text-center"><?php echo _("Creer un compte");?></p>
+                            <form action="" method="post">
+                                <div class="form-group">
+                                    <input type="text" name="nom" id="" class="form-control mb-2" placeholder="<?php echo _("Votre nom ");?>" required>
+                                    <input type="text" name="prenom" id="" class="form-control mb-2" placeholder="<?php echo _("Votre prenom");?>" required>
+                                    <input type="email" name="email" id="" class="form-control mb-2" placeholder="<?php echo _("Votre adresse email");?>" required>
+                                    <input type="password" name="psswd" id="" class="form-control mb-2" placeholder="***********************" required>
+                                </div>
+                                <div class="d-flex flex-columns">
+                                    <div class="">
+                                        <input class="form-check-input text-white mr-2" type="checkbox" id="check">
+                                    </div>
+                                    <div>
+                                        <?php echo _("Acceptez nos politiques d'utilisations de vos donnees");?>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-success"><?php echo _("Envoyer");?></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="username" role="tabpanel" aria-labelledby="username-log">
                             <p class="text-center"><span class="bi-person h1"></span></p>
                             <p class="text-center"><?php echo _("Connectez-vous a votre compte");?></p>
                             <form action="" method="post">
@@ -63,29 +86,6 @@
                                 <p class="text-center">
                                     <i>Terms of Privacy</i>
                                 </p>
-                            </form>
-                        </div>
-                        <div class="tab-pane fade" id="card-login" role="tabpanel" aria-labelledby="card-log">
-                            <p class="text-center"><span class="bi-person h1"></span></p>
-                            <p class="text-center"><?php echo _("Creer un compte");?></p>
-                            <form action="" method="post">
-                                <div class="form-group">
-                                    <input type="text" name="nom" id="" class="form-control mb-2" placeholder="<?php echo _("Votre nom ");?>" required>
-                                    <input type="text" name="prenom" id="" class="form-control mb-2" placeholder="<?php echo _("Votre prenom");?>" required>
-                                    <input type="email" name="email" id="" class="form-control mb-2" placeholder="<?php echo _("Votre adresse email");?>" required>
-                                    <input type="password" name="psswd" id="" class="form-control mb-2" placeholder="***********************" required>
-                                </div>
-                                <div class="d-flex flex-columns">
-                                    <div class="">
-                                        <input class="form-check-input text-white mr-2" type="checkbox" id="check">
-                                    </div>
-                                    <div>
-                                        <?php echo _("Acceptez nos politiques d'utilisations de vos donnees");?>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <button type="submit" class="btn btn-success"><?php echo _("Envoyer");?></button>
-                                </div>
                             </form>
                         </div>
                     </div>

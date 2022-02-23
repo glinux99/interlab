@@ -19,12 +19,17 @@
                         </a>
                     </li>
                     <li class="nav-item border-bottom w-100 pt-2 pb-2">
-                        <a href="#" class="nav-link align-middle px-0 h-50">
+                        <a href="<?php echo $inscription;?>" class="nav-link align-middle px-0 h-50">
                             <i class="h5 bi-person"></i> <span class="ms-1 d-none d-sm-inline"><?php echo _("Inscritpion");?></span>
                         </a>
                     </li>
                     <li class="nav-item border-bottom w-100 pt-2 pb-2">
-                        <a href="#" class="nav-link align-middle px-0 h-50 d-flex justify-content-center ">
+                        <a href="<?php echo $livres;?>" class="nav-link align-middle px-0 h-50">
+                            <i class="h5 bi-file-earmark-pdf text-danger"></i> <span class="ms-1 d-none d-sm-inline"><?php echo _("Livres");?></span>
+                        </a>
+                    </li>
+                    <li class="nav-item border-bottom w-100 pt-2 pb-2">
+                        <a href="<?php echo $tutos;?>" class="nav-link align-middle px-0 h-50 d-flex justify-content-center ">
                             <i class="h5 bi-folder2-open"></i> <span class="ms-1 d-none d-sm-inline"><?php echo _("Tutoriels et Astuces");?></span>
                         </a>
                     </li>
