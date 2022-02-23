@@ -263,6 +263,18 @@
                         </div>
                         <input type="text" name="nom_auteur" id="" class="form-control " placeholder="Nom de l'auteur">
                     </div>
+                    <div class="d-flex flex-columns mt-2">
+                        <div class="col-3">
+                            <span class="input-group-text" id="basic-addon1">Categories</span>
+                        </div>
+                        <div class="w-100">
+                            <select name="categories" id="" class="form-control">
+                                <option value="">Romans</option>
+                                <option value="">Science Fictions</option>
+                                <option value="">Bande dessinee</option>
+                            </select>
+                        </div>
+                    </div>
                     <input type="file" name="file" id="" class="form-control mt-2">
                     <div class="d-flex justify-content-center">
                         <button type="submit" class="btn btn-success col-5  mt-2"><span class="bi-music"></span> Publier</button>

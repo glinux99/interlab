@@ -30,22 +30,22 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <ul class="list-group ">
-                            <a href="security.php">
+                            <a href="<?php echo $security;?>">
                                 <li class="list-group-item px-1">
                                     <?php echo _("Securite Informatique");?>
                                 </li>
                             </a>
-                            <a href="apk.php">
+                            <a href="<?php echo $apk;?>">
                                 <li class="list-group-item px-1">
                                 <?php echo _("Creation des applications");?>
                                 </li>
                             </a>
-                            <a href="maintenance.php">
+                            <a href="<?php echo $maintenance;?>">
                                 <li class="list-group-item px-1">
                                 <?php echo _("Installation et maintainance des logiciels");?>
                                 </li>
                             </a>
-                            <a href="design.php">
+                            <a href="<?php echo $design;?>">
                                 <li class="list-group-item px-1 p-1">
                                     <div class="d-flex flex-columns">
                                         <div class="col-lg-6 d-flex flex-columns">
@@ -71,27 +71,27 @@
                  </div>
                  <div class="list-inline-item col-lg-4">
                         <ul class="list-group">
-                                <a href="reparation.php">
+                                <a href="<?php echo $reparation;?>">
                                     <li class="list-group-item px-1">
                                         Reparation et maintainance des ordinateurs 
                                     </li>
                                 </a>
-                                <a href="installation_dom.php">
+                                <a href="<?php echo $installation_dom;?>">
                                     <li class="list-group-item px-1">
                                         Installation et maintenance domestique 
                                     </li>
                                 </a>
-                                <a href="cours.php">
+                                <a href="<?php echo $cours;?>">
                                     <li class="list-group-item px-1">
                                         Nos cours 
                                     </li>
                                 </a>
-                                <a href="site_web.php">
+                                <a href="<?php echo $site_web;?>">
                                     <li class="list-group-item px-1">
                                         Creation des sites web 
                                     </li>
                                 </a>
-                                <a href="db.php">
+                                <a href="<?php echo $db;?>">
                                     <li class="list-group-item px-1">
                                         Creation des bases de donnees 
                                     </li>

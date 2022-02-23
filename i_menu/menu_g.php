@@ -4,7 +4,7 @@
             <div class="">
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start">
                     <li class="nav-item border-bottom w-100 pt-2 pb-2">
-                        <a href="actus.php" class="nav-link align-middle px-0 h-50">
+                        <a href="<?php echo $actus;?>" class="nav-link align-middle px-0 h-50">
                             <i class="h5 bi-globe"></i> <span class="ms-1 d-none d-sm-inline"><?php echo _("Actualite");?></span>
                         </a>
                     </li>
