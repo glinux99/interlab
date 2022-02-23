@@ -16,7 +16,7 @@
         <hr class="border-top border-success  border-2 p-0 m-0 mt-1">
         <ul class="nav nav-pills " role="tablist">
             <li class="navbar-item mr-3">
-                <a class="nav-link green" href="<?php echo $acceuil;?>" role="tab" aria-selected="true"><span class="h5 bi-house pIcons "></span><?php echo _(" Acceuil");?></a>
+                <a class="nav-link green" href="<?php echo $acceuil;?>" role="tab" aria-selected="true"><span class="h5 bi-house pIcons"></span><?php echo _(" Acceuil");?></a>
             </li>
             <li class="navbar-item mr-3">
                 <a class="nav-link green" href="<?php echo $apropos;?>"  title="Navigation vers apropos" role="tab" aria-selected="true">&nbsp;&nbsp;<span class="h5 bi-info-circle pIcons"></span><?php echo _(" A propos");?></a>

@@ -1,7 +1,7 @@
 <?php include('includes.php');
     if($index===1){
         echo '<link rel="stylesheet" href="vendor/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="vendor/icons/dist/bootstrap-icons-font.min.css">
+        <link rel="stylesheet" href="vendor/icons/font/bootstrap-icons.css">
         <link rel="stylesheet" href="css/css.css">
         <script src="vendor/dist/js/bootstrap.bundle.min.js"></script>';
         $logo ="i_img/logo.png";
