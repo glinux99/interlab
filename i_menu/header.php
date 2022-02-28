@@ -47,6 +47,8 @@
         echo '<link rel="stylesheet" href="'.$dir.'vendor/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="'.$dir.'vendor/icons/font/bootstrap-icons.css">
         <link rel="stylesheet" href="'.$dir.'css/css.css">
+        <link rel="stylesheet" href="../i_tutos/owl-carousel/owl.carousel.min.css">
+        <script src="../i_tutos/owl-carousel/owl.carousel.min.js">
         <script src="'.$dir.'vendor/dist/js/bootstrap.bundle.min.js"></script>';
     }
 ?>

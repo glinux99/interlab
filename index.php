@@ -8,10 +8,10 @@
     <title>Document</title>
 </head>
 <style>
-    .col-lg-4{
+    .col-md-4{
         flex:0 0 auto;
         /* width:32.33333333%; */
-        width: 22.5rem;
+        width: 21rem;
         margin: 5px;
     }
 </style>
@@ -25,7 +25,7 @@
             <?php while($x<3){
                 echo '<span>URGENCE</span>';
                 echo '<div class="row d-flex justify-content-center border-bottom border-2 pb-3">
-                <div class="col-lg-4 card" style="background: url(i_img/inter1.jpg), no-repeat;height: 18rem;background: cover;">
+                <div class="col-md-4 card" style="background: url(i_img/inter1.jpg), no-repeat;height: 18rem;background: cover;">
                     <div class="card-header">
                         Titre ici
                     </div>
@@ -34,12 +34,12 @@
                         ce qui n est pas interessant pour le pouvoir.
                     </div>
                 </div>
-                <div class="col-lg-4 card "style="background: url(i_img/inter3.jpg), no-repeat;height: 18rem;background: cover;" >
+                <div class="col-md-4 card "style="background: url(i_img/inter3.jpg), no-repeat;height: 18rem;background: cover;" >
                     <div class="card-header" style="background: #ccc;">
                         Titre ici
                     </div>
                 </div>
-                <div class="col-lg-4 card " style="background: url(i_img/inter2.jpg), no-repeat;height: 18rem;background: cover;">
+                <div class="col-md-4 card " style="background: url(i_img/inter2.jpg), no-repeat;height: 18rem;background: cover;">
                     <div class="card-header">
                         Titre ici
                     </div>
