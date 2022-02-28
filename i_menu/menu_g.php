@@ -7,9 +7,30 @@
                         </a>
                     </li>
                     <li class="nav-item border-bottom w-100 pt-2 pb-2">
-                        <a href="#" class="nav-link align-middle  h-50">
-                            <i class="h5 bi-chat-right-dots"></i> <span class="ms-1 d-none d-sm-inline"><?php echo _("Forums");?></span>
+                        <a href="" class="nav-link align-middle  h-50" role="button" data-bs-toggle="collapse" data-bs-target=".humour">
+                            <i class="h5 bi-chat-right-dots"></i> <span class="ms-1 d-none d-sm-inline"><?php echo _("Humours | Amour");?></span>
                         </a>
+                        <ul class="collapse nav-collapse humour">
+                            <li class="navbar-nav">
+                                <ul class="list-unstyled">
+                                    <a href="<?php echo $amour;?>" class="nav-link">
+                                        <li class="nav-item w-100">
+                                            <span class="bi-chat"></span><span class="ms-1 d-none d-sm-inline"><?php echo("Messages d'amour");?></span> 
+                                        </li>
+                                    </a>
+                                    <a href="<?php echo $blagues;?>" class="nav-link">
+                                        <li class="nav-item w-100 ">
+                                            <span class="bi-emoji-laughing"></span><span class="ms-1 d-none d-sm-inline"><?php echo("Blagues");?>
+                                        </li>
+                                    </a>
+                                    <a href="<?php echo $videosBlagues;?>" class="nav-link">
+                                        <li class="nav-item w-100 ">
+                                            <span class="bi-play-btn-fill"></span> <span class="ms-1 d-none d-sm-inline"><?php echo("Videos droles");?>
+                                        </li>
+                                    </a>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item border-bottom w-100 pt-2 pb-2">
                         <a href="<?php echo $service;?>" class="nav-link align-middle  h-50">

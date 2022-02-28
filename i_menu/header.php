@@ -23,6 +23,9 @@
         $inscription='i_login/inscription';
         $livres ='i_livres/livres';
         $tutos= 'i_tutos/tutos';
+        $amour = "humours/amour";
+        $blagues ="humours/blagues";
+        $videosBlagues ="humours/videosBlagues";
     }else {
         $dir="../";
         $logo ="../i_img/logo.png";
@@ -44,6 +47,9 @@
         $connexion ='../i_login/login';
         $gospel = "../i_gospel/gospel";
         $apropos ="../i_services/apropos";
+        $amour = "../humours/amour";
+        $blagues ="../humours/blagues";
+        $videosBlagues ="../humours/videosBlagues";
         echo '<link rel="stylesheet" href="'.$dir.'vendor/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="'.$dir.'vendor/icons/font/bootstrap-icons.css">
         <link rel="stylesheet" href="'.$dir.'css/css.css">
