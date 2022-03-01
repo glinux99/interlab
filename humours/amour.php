@@ -42,13 +42,13 @@
                         <div class="col-2 m-1">
                             <button class="btn btn-success">Next</button>
                         </div>
+                </div>
+                <div class="row d-none d-lg-block">
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-dark col-1 m-1">Back</button>
+                        <button type="submit" class="col-1 btn btn-success m-1">Next</button>
                     </div>
-                    <div class="row d-none d-lg-block">
-                        <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn btn-dark col-1 m-1">Back</button>
-                            <button type="submit" class="col-1 btn btn-success m-1">Next</button>
-                        </div>
-                    </div>
+                </div>
             </div>
         </div>
     </div>
