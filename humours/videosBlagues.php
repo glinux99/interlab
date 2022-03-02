@@ -47,16 +47,18 @@
                     </div>
                     <div class="card col-lg-4">
                     <video width="100%" height="200" poster="initialimage.png" loop muted id="vidp1">
-                        <source src="i_videos/video1.mp4" type="video/mp4">
-                        <source src="i_videos/video1.webm" type="video/webm">
+                        <source src="i_videos/video1.mp4" >
+                        <input type="text" name="link" value="i_videos/videos1.mp4" hidden>
                         <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
                         <a href="i_videos/video1.mp4">Télécharger la vidéo</a>
                     </video>
                         <form action="../i_videos/videos" method="post" id="formp1">
                             <div class="card-img-overlay text-center d-flex pb-5" id="vid1">
-                                <div class="align-self-center mx-auto pb-5" id="play1">
-                                    <span class="bi-play-btn-fill bi--3xl text-danger"></span>
-                                </div>
+                                <button class="btn align-self-center mx-auto pb-5">
+                                    <div class="" id="play1">
+                                        <span class="bi-play-btn-fill bi--3xl text-danger"></span>
+                                    </div>
+                                </button>
                             </div>
                         </form>
                         <div class="card-body text-center p-0 h-50 overflow-hidden">
@@ -82,9 +84,6 @@
       });
       $("#vid1").mouseenter(function(){
           $('#vidp1').trigger('play');
-      });
-     $("#vid1").click(function(){
-          $('$formp1').submit()
       });
     });
  </script>
